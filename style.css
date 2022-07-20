@@ -18,7 +18,7 @@ body {
     width:75%;
     display: flex;
     justify-content:space-between;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .header-logo {
@@ -40,7 +40,8 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -98,7 +99,7 @@ button {
     height:1.5em;
     border:0;
     border-radius: 4px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .info-section {
@@ -150,7 +151,7 @@ button {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 10% 20% 10% 20%;
+    padding: 5% 20% 5% 20%;
     
 
 }
@@ -165,6 +166,8 @@ button {
 
 .author {
     margin-left:auto;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .modal-section {
@@ -173,7 +176,7 @@ button {
     align-items: center;
 }
 .modal {
-    width: 70%;
+    width: 75%;
     /* padding-top: 25%; */
     background-color: #3882F6;
     color:white;
@@ -182,8 +185,12 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 70px;
     border-radius: 8px;
+}
+
+.right-modal {
+    margin-left: 20px;
 }
 
 .title-modal {
@@ -191,6 +198,7 @@ button {
     font-size: 32px;
     font-weight: bolder;
     padding-bottom: 10px;
+
 }
 
 .text-modal {
